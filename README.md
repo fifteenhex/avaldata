@@ -20,6 +20,7 @@
 
 ```
 0x0000 0000 - 0x0007 ffff - SRAM
+ 0x0000 0400 - 0x???? ???? - ROM copies itself here and jumps.
 0x0c00 0000 - 0x???? ???? - ROM, mapped to 0x0 for the first few cycles?
 0x00ff 0000 - 0x00ff 0fff - I think the dual port ram?
 ```
