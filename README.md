@@ -13,5 +13,5 @@
 ## AVME 352
 
 ### jumpers
-
+- w1, w2, w3 - Top bits of base address 1 + 2 on w1 is the MSB (I think)
 - w4 1 + 2 - vme address space, shorted = extended, open = standard
