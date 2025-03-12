@@ -282,3 +282,14 @@ f0c01000: c0ff c0ff ffff c0ff c0ff c0ff ffff c0ff  ................
 f0c01010: feff feff feff feff feff feff fcff fcff  ................
 ```
 0xff6 seems to be incrementing?
+
+```
+f0c00ff6: 00ad 5fe2                                .._.
+mvme147 =>md.w 0xf0c00ff6 0x2
+f0c00ff6: 00ad 601e                                ..`.
+mvme147 =>md.w 0xf0c00ff6 0x2
+f0c00ff6: 00ad 6058                                ..`X
+mvme147 =>md.w 0xf0c00ff6 0x2
+f0c00ff6: 00ad 6092                                ..`.
+mvme147 =>
+```
