@@ -16,6 +16,13 @@
 - w1, w2, w3 - Top bits of base address 1 + 2 on w1 is the MSB (I think)
 - w4 1 + 2 - vme address space, shorted = extended, open = standard
 
+### Memory map
+
+```
+0x0000 0000 - 0x0007 ffff - SRAM
+0x0c00 0000 - 0x???? ???? - ROM, mapped to 0x0 for the first few cycles?
+```
+
 ### Memory dumps
 
 Just powered on:
