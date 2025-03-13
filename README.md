@@ -23,6 +23,7 @@
  0x0000 0400 - 0x???? ???? - ROM copies itself here and jumps.
 0x0c00 0000 - 0x???? ???? - ROM, mapped to 0x0 for the first few cycles?
 0x00ff 0000 - 0x00ff 0fff - I think the dual port ram?
+ - mb8421 x 2, I think 0xffc, 0xffd, 0xffe, 0xffe are the mailbox address that trigger interrupts.
 ```
 
 ### Memory dumps
