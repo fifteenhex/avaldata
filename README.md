@@ -12,6 +12,8 @@
 
 ## AVME 352
 
+half dead page: https://avaldata.co.jp/products/z_old_product/module_product/vme/avme352/avme352.html
+
 ### jumpers
 - w1, w2, w3 - Top bits of base address 1 + 2 on w1 is the MSB (I think)
 - w4 1 + 2 - vme address space, shorted = extended, open = standard
